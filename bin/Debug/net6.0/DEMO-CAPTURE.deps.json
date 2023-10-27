@@ -1,0 +1,120 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "DEMO-CAPTURE/1.0.0": {
+        "dependencies": {
+          "PcapDotNet": "0.10.2",
+          "SharpPcap": "6.2.5"
+        },
+        "runtime": {
+          "DEMO-CAPTURE.dll": {}
+        }
+      },
+      "PacketDotNet/1.4.6": {
+        "dependencies": {
+          "System.Runtime.CompilerServices.Unsafe": "6.0.0"
+        },
+        "runtime": {
+          "lib/netstandard2.1/PacketDotNet.dll": {
+            "assemblyVersion": "1.4.6.0",
+            "fileVersion": "1.4.6.0"
+          }
+        }
+      },
+      "PcapDotNet/0.10.2": {
+        "runtime": {
+          "lib/net40/PcapDotNet.Base.dll": {
+            "assemblyVersion": "0.10.0.20588",
+            "fileVersion": "0.10.0.0"
+          },
+          "lib/net40/PcapDotNet.Core.Extensions.dll": {
+            "assemblyVersion": "0.10.0.20638",
+            "fileVersion": "0.10.0.0"
+          },
+          "lib/net40/PcapDotNet.Core.dll": {
+            "assemblyVersion": "0.10.0.20632",
+            "fileVersion": "0.0.0.0"
+          },
+          "lib/net40/PcapDotNet.Packets.dll": {
+            "assemblyVersion": "0.10.0.20603",
+            "fileVersion": "0.10.0.0"
+          }
+        }
+      },
+      "SharpPcap/6.2.5": {
+        "dependencies": {
+          "PacketDotNet": "1.4.6",
+          "System.Memory": "4.5.5",
+          "System.Text.Encoding.CodePages": "6.0.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/SharpPcap.dll": {
+            "assemblyVersion": "6.2.5.0",
+            "fileVersion": "6.2.5.0"
+          }
+        }
+      },
+      "System.Memory/4.5.5": {},
+      "System.Runtime.CompilerServices.Unsafe/6.0.0": {},
+      "System.Text.Encoding.CodePages/6.0.0": {
+        "dependencies": {
+          "System.Runtime.CompilerServices.Unsafe": "6.0.0"
+        }
+      }
+    }
+  },
+  "libraries": {
+    "DEMO-CAPTURE/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "PacketDotNet/1.4.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-alTw0mrKv2wDbF3jnXl4yoNqSHu4atDrPC3SMlMI8UaaLI4QuULga99SAUg+9V9y9haYBLu5EbMLtOza4O7XnA==",
+      "path": "packetdotnet/1.4.6",
+      "hashPath": "packetdotnet.1.4.6.nupkg.sha512"
+    },
+    "PcapDotNet/0.10.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-IZ7I4BQXkWKB2RJlNQCcq8HRmkeisoynFDz7Kq2hkp6GPumGRDX05Iuzl7eL4OeggAY+kaErqP5U+cfe4mEOhA==",
+      "path": "pcapdotnet/0.10.2",
+      "hashPath": "pcapdotnet.0.10.2.nupkg.sha512"
+    },
+    "SharpPcap/6.2.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-irLFbxr6Ks6T6UaWqTxlhGF1nyJstTc4pVUOj8mlkPlQdAdP34+1h0yekcyiCc3ewZ5P4sNrvpbkc4SwcIksiw==",
+      "path": "sharppcap/6.2.5",
+      "hashPath": "sharppcap.6.2.5.nupkg.sha512"
+    },
+    "System.Memory/4.5.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-XIWiDvKPXaTveaB7HVganDlOCRoj03l+jrwNvcge/t8vhGYKvqV+dMv6G4SAX2NoNmN0wZfVPTAlFwZcZvVOUw==",
+      "path": "system.memory/4.5.5",
+      "hashPath": "system.memory.4.5.5.nupkg.sha512"
+    },
+    "System.Runtime.CompilerServices.Unsafe/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-/iUeP3tq1S0XdNNoMz5C9twLSrM/TH+qElHkXWaPvuNOt+99G75NrV0OS2EqHx5wMN7popYjpc8oTjC1y16DLg==",
+      "path": "system.runtime.compilerservices.unsafe/6.0.0",
+      "hashPath": "system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+    },
+    "System.Text.Encoding.CodePages/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ZFCILZuOvtKPauZ/j/swhvw68ZRi9ATCfvGbk1QfydmcXBkIWecWKn/250UH7rahZ5OoDBaiAudJtPvLwzw85A==",
+      "path": "system.text.encoding.codepages/6.0.0",
+      "hashPath": "system.text.encoding.codepages.6.0.0.nupkg.sha512"
+    }
+  }
+}

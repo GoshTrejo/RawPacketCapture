@@ -1,0 +1,26 @@
+{
+  "version": 2,
+  "dgSpecHash": "MZm8aM503se8pxYD64WFBTirK6m2WV1RDJkewY+mdFgIhOPWaXqoR3sGQ0wN+61rrjM/l/BNwyAhZTptR86M4A==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\josht\\source\\repos\\DEMO-CAPTURE\\DEMO-CAPTURE.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\josht\\.nuget\\packages\\packetdotnet\\1.4.6\\packetdotnet.1.4.6.nupkg.sha512",
+    "C:\\Users\\josht\\.nuget\\packages\\pcapdotnet\\0.10.2\\pcapdotnet.0.10.2.nupkg.sha512",
+    "C:\\Users\\josht\\.nuget\\packages\\sharppcap\\6.2.5\\sharppcap.6.2.5.nupkg.sha512",
+    "C:\\Users\\josht\\.nuget\\packages\\system.memory\\4.5.5\\system.memory.4.5.5.nupkg.sha512",
+    "C:\\Users\\josht\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
+    "C:\\Users\\josht\\.nuget\\packages\\system.text.encoding.codepages\\6.0.0\\system.text.encoding.codepages.6.0.0.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'PcapDotNet 0.10.2' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
+      "libraryId": "PcapDotNet",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    }
+  ]
+}
